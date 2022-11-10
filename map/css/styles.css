@@ -143,6 +143,10 @@ body {
 
 }
 
+.leaflet-control-zoom {
+    margin-top: 175px !important;
+  }  
+
 
 .leaflet-tile-pane {
   opacity: 0.55;
@@ -371,7 +375,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 620px) {
 
   .maptitle {
     width: 80%;
@@ -430,7 +434,7 @@ body {
 
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 430px) {
 
   .maptitle {
     width: 74%;
