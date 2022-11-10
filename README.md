@@ -10,39 +10,39 @@ We’ve narrowed down the territories and languages that overlap with our DMA bo
 
 Here are some highlights: 
 
--In total*, 118 Indigenous territory boundaries and 76 languages overlap with our 8 market coverage areas.
+- In total*, 118 Indigenous territory boundaries and 76 languages overlap with our 8 market coverage areas.
 
--KABC/Los Angeles’s coverage area overlaps with: 
-  -27 Indigenous territory boundaries and 18 languages 
+- KABC/Los Angeles’s coverage area overlaps with: 
+  - 27 Indigenous territory boundaries and 18 languages 
 
--KGO/San Francisco’s coverage area overlaps with: 
-  -27 Indigenous territory boundaries and 24 languages 
+- KGO/San Francisco’s coverage area overlaps with: 
+  - 27 Indigenous territory boundaries and 24 languages 
 
--WABC/New York’s coverage area overlaps with: 
-  -24 Indigenous territory boundaries and 7 languages 
+- WABC/New York’s coverage area overlaps with: 
+  - 24 Indigenous territory boundaries and 7 languages 
 
 -KFSN/Fresno’s coverage area overlaps with: 
   -15 Indigenous territory boundaries and 10 languages 
 
--WTVD/Raleigh’s coverage area overlaps with: 
-  -14 Indigenous territory boundaries and 6 languages 
+- WTVD/Raleigh’s coverage area overlaps with: 
+  - 14 Indigenous territory boundaries and 6 languages 
 
--KTRK/Houston’s coverage area overlaps with: 
-  -13 Indigenous territory boundaries and 9 languages 
+- KTRK/Houston’s coverage area overlaps with: 
+  - 13 Indigenous territory boundaries and 9 languages 
 
--WLS/Chicago’s coverage area overlaps with: 
-  -6 Indigenous territory boundaries and 6 languages 
+- WLS/Chicago’s coverage area overlaps with: 
+  - 6 Indigenous territory boundaries and 6 languages 
 
--WPVI/Philadelphia’s coverage area overlaps with: 
-  -4 Indigenous territory boundaries and 5 languages 
+- WPVI/Philadelphia’s coverage area overlaps with: 
+  - 4 Indigenous territory boundaries and 5 languages 
 
 **Note: some territories and languages overlap with multiple DMAs. This total does NOT count those duplicates.*
 
 Contained in this repo: 
--An excel sheet with 3 tabs: 
-  -**Every territory within our DMA**
-  -**Every language within our DMA**
+- An excel sheet with 3 tabs: 
+  1. **Every territory within our DMA**
+  2. **Every language within our DMA**
     -Both the territories and languages tabs include links to the Native Land Digital description 
-  -**Number of territories and languages in each DMA**
--A geojson (mapping) file for both the language and territory boundaries for each DMA. 
--A searchable map using Native Land Digital’s api. Search your zip code to find out which Indigenous territories have once overlapped with your zip code.  
+  3. **Number of territories and languages in each DMA**
+- A geojson (mapping) file for both the language and territory boundaries for each DMA. 
+- A searchable map using Native Land Digital’s api. Search your zip code to find out which Indigenous territories have once overlapped with your zip code.  
