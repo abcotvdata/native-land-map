@@ -21,7 +21,7 @@ Here are some highlights:
 - WABC/New York’s coverage area overlaps with: 
   - 24 Indigenous territory boundaries and 7 languages 
 
--KFSN/Fresno’s coverage area overlaps with: 
+- KFSN/Fresno’s coverage area overlaps with: 
   -15 Indigenous territory boundaries and 10 languages 
 
 - WTVD/Raleigh’s coverage area overlaps with: 
