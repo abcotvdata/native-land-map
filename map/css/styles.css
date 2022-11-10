@@ -201,6 +201,10 @@ body {
   top: 40vh;
 
 }
+
+.leaflet-popup-pane {
+  z-index: 0 !important;
+}
   
   .leaflet-popup-tip-container {
     display: none;

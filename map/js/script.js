@@ -133,8 +133,9 @@ $(document).ready(function(){ // begin document.ready block
 								// layer.bindPopup(popup);
 
 								var tooltip = new L.tooltip({
-									permanent: "true"
-								}).setContent('<div class="title"><h3>'+feature.properties.Name+' Territory</h3></div><div class="text"><p><a href="' + feature.properties.description + '" target="_blank">Click here for more information</a></p></div>');
+									permanent: "true",
+									interactive: "true"
+								}).setContent('<div class="title"><h3>'+feature.properties.Name+' Territory</h3></div><div class="text"><p><a href="' + feature.properties.description + '" target="_Blank">Click here for more information</a></p></div>');
 
 								layer.bindTooltip(tooltip)
 
