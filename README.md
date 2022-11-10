@@ -45,4 +45,4 @@ Contained in this repo:
     -Both the territories and languages tabs include links to the Native Land Digital description 
   3. **Number of territories and languages in each DMA**
 - A geojson (mapping) file for both the language and territory boundaries for each DMA. 
-- A searchable map using Native Land Digital’s api. Search your zip code to find out which Indigenous territories have once overlapped with your zip code.  
+- A [searchable map](https://abcotvdata.github.io/native-land-map/map/index.html) using Native Land Digital’s api. Search your zip code to find out which Indigenous territories have once overlapped with your zip code.  
