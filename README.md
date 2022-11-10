@@ -22,7 +22,7 @@ Here are some highlights:
   - 24 Indigenous territory boundaries and 7 languages 
 
 - KFSN/Fresno’s coverage area overlaps with: 
-  -15 Indigenous territory boundaries and 10 languages 
+  - 15 Indigenous territory boundaries and 10 languages 
 
 - WTVD/Raleigh’s coverage area overlaps with: 
   - 14 Indigenous territory boundaries and 6 languages 
