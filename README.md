@@ -2,7 +2,7 @@
 
 This data comes from [Native Land Digital](https://native-land.ca/), an Indigenous-led non-profit based in Canada that “strives to create and foster conversations about the history of colonialism, Indigenous ways of knowing, and settler-Indigenous relations, through educational resources.”
 
-Native Land Digital has collected the possible historical boundaries of Indigenous territories and languages. Many of them overlap.
+Native Land Digital has collected estimated historical boundaries of Indigenous territories and languages. Many of them overlap.
 
 *Please note this disclaimer from Native Land Digital: "This map does not represent or intend to represent official or legal boundaries of any Indigenous nations. To learn about definitive boundaries, contact the nations in question. Also, this map is not perfect - it is a work in progress with tons of contributions from the community. Please send us fixes if you find errors."*
 
