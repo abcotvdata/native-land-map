@@ -30,7 +30,7 @@ $(document).ready(function(){ // begin document.ready block
 			ext: 'png'
 		}).addTo(map);
 
-		
+
 
 
 		map.createPane("polygonsPane");
@@ -100,23 +100,27 @@ $(document).ready(function(){ // begin document.ready block
 					// territories layer
 					$.getJSON(territoriesAPIlink,function(polygondata){
 
-						var myStyle = {
-						    "color": "white",
-						    "weight": 0,
-						    "fillOpacity": 0.65
-						};
+						// var myStyle = {
+						//     "color": "white",
+						//     "weight": 0,
+						//     "fillOpacity": 0.7
+						// };
 
 						var layerGroup = L.geoJson(polygondata,  {
 
-							style: myStyle,
 							pane: "polygonsPane",
-							opacity: 0.55,
+							opacity: 0.7,
 
 							style: function (feature) {
 
 								return {
 									fillColor: feature.properties.color,
-									className: "territory"
+									className: "territory",
+									color: "white",
+									weight: 0.5,
+									fillOpacity: 0.5
+
+
 								};
 								
 
@@ -167,7 +171,55 @@ $(document).ready(function(){ // begin document.ready block
 						console.log("start over")
 						$('#zip').val("");
 						location.reload();
+
 					});
+
+
+					// $("#showbia").click(function(){
+
+					// 	console.log("SHOWBIA!")
+
+					// 	// BIA layer
+					// 	$.getJSON("BIA-LAR1.geojson",function(biadata){
+
+					// 		var myStyle = {
+					// 		    "color": "black",
+					// 		    "fillColor":"white",
+					// 		    "weight": 0.5,
+					// 		    "fillOpacity": 0.7
+					// 		};
+
+					// 		var layerGroup = L.geoJson(biadata,  {
+
+					// 			style: myStyle,
+					// 			pane: "polygonsPane",
+					// 			opacity: 0.7,
+
+					// 			onEachFeature: function (feature, layer) {
+
+					// 				var popup = L.popup({
+					// 				  	autoPan: false
+					// 				}).setContent('<div class="title"><h3>'+feature.properties.LARName+'</h3></div><div class="text"><p>(Part of the BIA\'s National Land Area Representations)</p></div>');
+
+					// 				layer.bindPopup(popup);
+
+					// 			// 	var tooltip = new L.tooltip({
+					// 			// 		permanent: "true",
+					// 			// 		interactive: "true"
+					// 			// 	}).setContent('<div class="title"><h3>'+feature.properties.Name+' Territory</h3></div><div class="text"><p><a href="' + feature.properties.description + '" target="_Blank">Click here for more information</a></p></div>');
+
+					// 			// 	layer.bindTooltip(tooltip)
+
+					// 			}
+
+
+					// 		}).addTo(map);
+
+					// 	});	//end BIA-LAR layer function
+
+
+						
+					// });
 
 
 				}
